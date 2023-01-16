@@ -14,12 +14,12 @@
           <ul class="horizontal-list text-center nav-menu
           ">
               <li><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skill</a></li>
-              <li><a href="#experiences">Experience</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#content">Content</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#" id="skill">Skills</a></li>
+              <li><a href="#">Experiences</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
           </ul>
       </nav>
           <div id="name-social-container">
@@ -76,7 +76,7 @@
        <div class="skills-display">
         <!-- c++ -->
        <div class="skill-progress">
-        <div class="eighty5-percentage">
+        <div class="eighty5-percentage" data-bar-width="85">
             <div class="skill-name">
                 <span>C++</span>
             </div>
@@ -84,7 +84,7 @@
        </div>
        <!-- DSA -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:darkcyan;width:75%;">
+        <div class="eighty5-percentage" style="background-color:darkcyan;" data-bar-width="75">
             <div class="skill-name">
                 <span>DSA</span>
             </div>
@@ -92,7 +92,7 @@
        </div>
        <!-- HTML -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:rgb(252, 167, 9);width:90%">
+        <div class="eighty5-percentage" style="background-color:orangered;" data-bar-width="90">
             <div class="skill-name">
                 <span>HTML</span>
             </div>
@@ -100,7 +100,7 @@
        </div>
        <!-- css -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:darkblue;">
+        <div class="eighty5-percentage" style="background-color:darkblue;" data-bar-width="75">
             <div class="skill-name">
                 <span>Css</span>
             </div>
@@ -108,7 +108,7 @@
        </div>
        <!-- bootstrap -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:purple;">
+        <div class="eighty5-percentage" style="background-color:purple;" data-bar-width="85">
             <div class="skill-name">
                 <span>Bootstrap</span>
             </div>
@@ -116,7 +116,7 @@
        </div>
        <!-- javascript -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:yellow;">
+        <div class="eighty5-percentage" style="background-color:orangered" data-bar-width="75">
             <div class="skill-name">
                 <span>Javascript</span>
             </div>
@@ -124,7 +124,7 @@
        </div>
        <!-- react -->
        <div class="skill-progress">
-        <div class="eighty5-percentage" style="background-color:aqua;">
+        <div class="eighty5-percentage" style="background-color:blue;" data-bar-width="50">
             <div class="skill-name">
                 <span>React</span>
             </div>
@@ -132,15 +132,15 @@
        </div>
 <!-- jquery -->
 <div class="skill-progress">
-<div class="eighty5-percentage" style="background-color:orange;">
+<div class="eighty5-percentage" style="background-color:orangered" data-bar-width="55">
     <div class="skill-name">
         <span>jquery</span>
     </div>
 </div>
 </div>
 <!-- git -->
-<div class="skill-progress">
-<div class="eighty5-percentage" style="background-color:black;">
+<div class="skill-progress"> 
+<div class="eighty5-percentage" style="background-color:black;" data-bar-width="65">
     <div class="skill-name">
         <span>Git</span>
     </div>
@@ -395,5 +395,8 @@
             </div>
     </section>
     </main>
+    <!-- javascript link -->
+    <script src="event/scroll.js"></script>
+    <script src="event/skill_fill.js"></script>
 </body>
 </html>
